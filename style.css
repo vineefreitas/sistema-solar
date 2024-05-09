@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(imagens/gif\ espaço.gif);
+}
+.enquadramento{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+.netuno-container {
+    position: absolute;
+    height: 950px;
+    width: 950px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.netuno-container > img{
+    height: 40px;
+    width: 40px;
+    animation: netuno-rotação 85000ms linear infinite;
+}
+@keyframes netuno-rotação{
+    0%{
+        transform: rotate(0deg) translate(475px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(475px) rotate(360deg);
+    }
+}
+
+.urano-container {
+    position: absolute;
+    height: 850px;
+    width: 850px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.urano-container > img{
+    height: 30px;
+    width: 30px;
+    animation: urano-rotação 66000ms linear infinite;
+}
+@keyframes urano-rotação{
+    0%{
+        transform: rotate(0deg) translate(425px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(425px) rotate(360deg);
+    }
+}
+
+.saturno-container {
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.saturno-container > img{
+    height: 90px;
+    width: 100px;
+    animation: saturno-rotação 48000ms linear infinite;
+}
+@keyframes saturno-rotação{
+    0%{
+        transform: rotate(0deg) translate(370px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(370px) rotate(360deg);
+    }
+}
+
+.jupiter-container {
+    position: absolute;
+    height: 650px;
+    width: 650px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.jupiter-container > img{
+    height: 70px;
+    width:70px;
+    animation: jupiter-rotação 33000ms linear infinite;
+}
+@keyframes jupiter-rotação{
+    0%{
+        transform: rotate(0deg) translate(320px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(320px) rotate(360deg);
+    }
+}
+
+.marte-container {
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.marte-container > img{
+    height: 30px;
+    width: 30px;
+    animation: marte-rotação 22000ms linear infinite;
+}
+@keyframes marte-rotação{
+    0%{
+        transform: rotate(0deg) translate(275px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(275px) rotate(360deg);
+    }
+}
+
+.terra-container {
+    position: absolute;
+    height: 450px;
+    width: 450px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.terra-container > img{
+    height: 40px;
+    width: 40px;
+    animation: terra-rotação 16000ms linear infinite;
+}
+@keyframes terra-rotação{
+    0%{
+        transform: rotate(0deg) translate(220px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(220px) rotate(360deg);
+    }
+}
+
+.venus-container {
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.venus-container > img{
+    height: 30px;
+    width: 30px;
+    animation: venus-rotação 11000ms linear infinite;
+}
+@keyframes venus-rotação{
+    0%{
+        transform: rotate(0deg) translate(175px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(175px) rotate(360deg);
+    }
+}
+
+.mercurio-container {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.mercurio-container > img{
+    height: 25px;
+    width: 25px;
+    animation: mercurio-rotação 6000ms linear infinite;
+}
+@keyframes mercurio-rotação{
+    0%{
+        transform: rotate(0deg) translate(125px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg) translate(125px) rotate(360deg);
+    }
+}
+
+.sol > img{
+    height: 180px;
+    width: 180px;
+    position: relative;
+    left: 82px;
+}
+
+.amongus img{
+    height: 80px;
+    width: 160px;
+    position: relative;
+    top:-500px;
+    left: -500px;
+    animation: amongus 10s linear infinite;
+}
+
+@keyframes amongus{
+    from{
+        transform: rotate(0deg) translate(125px);
+    }
+    to{
+        transform: rotate(90deg) translate(950px);
+    }
+}
+
+.botões{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    left: 0px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.btn-btn-primary{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 60px;
+    width: 60px;
+    background-image: linear-gradient(#2136f9, #0000ab);
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.btn-btn-primary:hover{
+    border:5px solid black
+}
+
+.botões img{
+    width: 50px;
+    height: 50px;
+}
+
+  .botões a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .section {
+    padding-top: 50px; /* Para compensar a altura da barra de navegação fixa */
+  }
+
+  .participantes{
+    position: absolute;
+    top:40vh;
+    left: 85%;
+    color: white;
+    cursor: pointer;
+  }
+
+  .participantes:hover .github{
+    opacity: 1;
+  }
+
+  .github p{
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .github{
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .github a{
+    text-decoration: none;
+    color: white;
+  }
